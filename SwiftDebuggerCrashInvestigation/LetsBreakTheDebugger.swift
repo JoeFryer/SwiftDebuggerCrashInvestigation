@@ -8,16 +8,15 @@
 
 import UIKit
 
+struct Tag {
+    let title: String
+}
 
 class Row<RowViewType> {
     
 }
 
 final class TagRow: Row<TagRowView> {
-    struct Tag {
-        let title: String
-    }
-    
     let tag: Tag
     
     override init() {
@@ -26,7 +25,7 @@ final class TagRow: Row<TagRowView> {
 }
 
 
-class TagRowView: RowView<TagRow.Tag> {
+class TagRowView: RowView<Tag> {
     
 }
 
