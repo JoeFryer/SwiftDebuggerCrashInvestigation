@@ -13,6 +13,7 @@
 		F205EB3F23F81E45009440C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F205EB3D23F81E45009440C0 /* Main.storyboard */; };
 		F205EB4123F81E48009440C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F205EB4023F81E48009440C0 /* Assets.xcassets */; };
 		F205EB4423F81E48009440C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F205EB4223F81E48009440C0 /* LaunchScreen.storyboard */; };
+		F205EB4C23F81F43009440C0 /* LetsBreakTheDebugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F205EB4B23F81F42009440C0 /* LetsBreakTheDebugger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F205EB4023F81E48009440C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F205EB4323F81E48009440C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F205EB4523F81E48009440C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F205EB4B23F81F42009440C0 /* LetsBreakTheDebugger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsBreakTheDebugger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F205EB3723F81E45009440C0 /* AppDelegate.swift */,
 				F205EB3923F81E45009440C0 /* SceneDelegate.swift */,
 				F205EB3B23F81E45009440C0 /* ViewController.swift */,
+				F205EB4B23F81F42009440C0 /* LetsBreakTheDebugger.swift */,
 				F205EB3D23F81E45009440C0 /* Main.storyboard */,
 				F205EB4023F81E48009440C0 /* Assets.xcassets */,
 				F205EB4223F81E48009440C0 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F205EB4C23F81F43009440C0 /* LetsBreakTheDebugger.swift in Sources */,
 				F205EB3C23F81E45009440C0 /* ViewController.swift in Sources */,
 				F205EB3823F81E45009440C0 /* AppDelegate.swift in Sources */,
 				F205EB3A23F81E45009440C0 /* SceneDelegate.swift in Sources */,
